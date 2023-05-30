@@ -1,10 +1,10 @@
 domain: nhsengland.github.io
 url: https://nhsengland.github.io
-baseurl: /nhse-io-jekyll-template
-repository: nhsengland/nhse-io-jekyll-template
-title: Example Site
-description: Description
-email: email@nhs.net
+baseurl: /DataScience/CaseStudies
+repository: nhsengland/DataScience-CaseStudies
+title: Case Studies
+description: Public facing materials for our work
+email: datascience@nhs.net
 github_username: nhsengland
 plugins:
   - jemoji
