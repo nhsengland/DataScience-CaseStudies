@@ -1,6 +1,8 @@
-# Template for io pages using Jekyll
+# Data Science - Case Studies
 
-Uses https://service-manual.nhs.uk/ to incporate NHS England themes, components and accessibility.
+To act as public facing short-form write ups of projects with links to code and full official case study reports where available.
+
+Uses NHSE-io-jekyll-template which in turn uses https://service-manual.nhs.uk/ to incporate NHS England themes, components and accessibility.
 
 ## How to run Locally
 
