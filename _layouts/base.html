@@ -5,19 +5,20 @@
 
 <body>
 
+
   <script>
     document.body.className = document.body.className
       ? document.body.className + " js-enabled"
       : "js-enabled";
   </script>
 
-  <div class="nhsuk-grid-row" style="margin-top: 0.5rem"></div>
-
-  <div class="nhsuk-width-container">
+  <div class="nhsuk-width-container-fluid">
     <main class="nhsuk-main-wrapper" id="maincontent" role="main">
       <div class="nhsuk-grid-row">
-        <div class="nhsuk-grid-column-full">
-
+        <div class="nhsuk-grid-column-one-quarter">
+          {% include sidenav.html %}
+        </div>
+        <div class="nhsuk-grid-column-three-quarters">
           <div class="nhsuk-warning-callout">
             <h3 class="nhsuk-warning-callout__label">
               <span role="text">
@@ -38,5 +39,7 @@
 
   {% include footer.html %}
 </body>
+
+<script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag-GitHub.js"></script>
 
 </html>

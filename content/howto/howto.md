@@ -4,7 +4,9 @@ title: How-to
 description: Instructions, SOPs and guides
 permalink: howto.html
 ---
-
+## Add CaseStudies
+- To add a case study create a `file.md` in the `content\shortwriteups` folder with the layout, title and permalink header (see other examples). 
+- Add a `nhsuk-side-navigation__item` to the `sidenav.html` file in the `_includes` folder using the same permalink as specified in the md header above. 
 ## Review Policy for adding content
 - Only public github repos are to be added as projects.
 - Only the related individual to update their team content.
@@ -50,11 +52,5 @@ permalink: howto.html
 
 **Alternatively**, for small changes such as the addtions listed below, you can ammend the `.yml` and add assets/markdowns directly on github but please do this within a branch and pull request rather than directly on to the main.
 
-## Add Projects
 
-To add/edit projects, simply definie them in `_data/project.yml` and link them to a github repo or io page.  See the kanban.yml in _data for the stage catergories you can assign a project into.
-
-## Add Posts
-
-You can add/edit posts by defining them in `_data/digest.yml` and add the text as a markdown file in the root folder.  Any images need to be stored in assets.  
 
