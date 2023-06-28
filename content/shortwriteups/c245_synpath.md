@@ -7,22 +7,26 @@ permalink: c245_synpath.html
 
 # {{page.title}}
 
-> | "Would an agent-based simulation approach allow synthetic patient pathways and scenario modelling to be created for healthcare specific implementations.  "   
-
-
+> | "Developing an agent-based simulation for generating synthetic patient pathways and scenario modelling for healthcare specific implementations."   
 
 <p align="center">
-    <img src="assets/img/c245fig1.png" alt="Overview of data model"  width="800"/>
+    <img src="assets/img/c245fig1.png" alt="Overview of data model"  width="100%"/>
 </p>
 <p align="left">
     <em>Figure 1: Overview of the Synpath data model</em>
 </p>
 
-A data model (“Patient Agent”) was developed for fake patients to be defined in the simulation.  The patient is then assigned a health record (conditions, medications,  ..) with optional additional attributes. An environment layer, representing the physical and abstract health system the patient can interact with (e.g., GP practice, multidisciplinary team meeting) can then update the patient record with appointment times, updates to health status or increase in medications prescribed.  
+A data model (“Patient Agent”) was developed for fake patients to be defined in the simulation.  The patient is then assigned a health record (conditions, medications,  ..) with optional additional attributes. 
+
+Interacting this data model over time with an environment layer (represetnation of the physical and abstract health system components that the patient can interact with (e.g., GP practice, multidisciplinary team meeting)), creates a patient record with appointment times, updates to health status, and changes in medications prescribed.  
 
 ## Results 
 
-Foundations were built for the data model and environment.   During the development it became clear that a key nature to be included for healthcare agent simulations in the NHS is the distinction between active and passive agents in regards to the choice of the next environment interaction point.   Efficient object communication and concurrency were also highlighted needed significant further development. 
+Foundations were built for the data model and environment.  
+
+During the development it became clear that a key nature to be included for healthcare agent simulations in the NHS is the distinction between active and passive agents in regards to the choice of the next environment interaction point.   The spatial location of services was less important than in a typical agent-based simulation as the timescales made these considerations redundant.   
+
+Efficient object communication and concurrency were also highlighted needing significant further development. 
 
 | Output | Link | 
 | ---- | ---- |
@@ -30,6 +34,5 @@ Foundations were built for the data model and environment.   During the developm
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/SynPath/blob/master/reports/REDACTED_C245%20ABM%20Patient%20Pathways_Final%20Report_V3_28042021.cleaned.pdf) |
 
-||||
 |:-|:-|:-|
-|<img src="assets/img/simulation_badge_S.png" alt  width="80"/>|<img src="assets/img/Synthetic.png" alt  width="80"/>|<img src="assets/img/machine_learning_badge_S.png" alt  width="80"/>|
+|<img src="assets/img/simulation_badge_S.png" alt  width="80"/>|<img src="assets/img/Synthetic.png" alt  width="80"/>|<img src="assets/img/data_science_badge_S.png" alt  width="80"/>|

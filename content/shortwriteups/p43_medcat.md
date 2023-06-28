@@ -8,7 +8,7 @@ permalink: p43_medcat.html
 > | "In collaboration with Lancaster teaching hospital and the University of Lancaster we aim to apply MedCat (an automated named entity recognition with linkage algorithm) to neurology letters to identify related SNOMED CT coding."   
 
 <p align="center">
-    <img src="assets/img/p43fig1.png" alt=""  width="800"/>
+    <img src="assets/img/p43fig1.png" alt=""  width="100%"/>
 </p>
 <p align="center">
     <em>Figure 1: </em>
