@@ -1,6 +1,6 @@
 domain: nhsengland.github.io
 url: https://nhsengland.github.io
-baseurl: /DataScience/CaseStudies
+baseurl: /DataScience-CaseStudies
 repository: nhsengland/DataScience-CaseStudies
 title: NHSE Data Science Case Studies
 description: Public facing materials for our work
