@@ -11,7 +11,7 @@ permalink: p14_mcr.html
     <img src="assets/img/p14fig1.png" alt=""  width="100%"/>
 </p>
 <p align="left">
-    <em>Figure 1: Schamtic of the difference between other variable importance tools and the Model Class Reliance approach to explaining the value of a sinlge input variable in a prediction</em>
+    <em>Figure 1: Schematic of the difference between other variable importance tools and the Model Class Reliance approach to explaining the value of a sinlge input variable in a prediction</em>
 </p>
 
 The primary aim of the project was to apply the novel variable importance technique, [model class reliance](https://papers.nips.cc/paper/2020/hash/fd512441a1a791770a6fa573d688bff5-Abstract.html), to machine learning models which could predict registered respiratory deaths in the UK. The objective was to assess the value of commercial health data in healthcare predictions compared to other available datasets.

@@ -18,7 +18,7 @@ permalink: c245_synpath.html
 
 A data model (“Patient Agent”) was developed for fake patients to be defined in the simulation.  The patient is then assigned a health record (conditions, medications,  ..) with optional additional attributes. 
 
-Interacting this data model over time with an environment layer (represetnation of the physical and abstract health system components that the patient can interact with (e.g., GP practice, multidisciplinary team meeting)), creates a patient record with appointment times, updates to health status, and changes in medications prescribed.  
+Interacting this data model over time with an environment layer (representation of the physical and abstract health system components that the patient can interact with (e.g., GP practice, multidisciplinary team meeting)) creates a patient record with appointment times, updates to health status, and changes in medications prescribed.  
 
 ## Results 
 

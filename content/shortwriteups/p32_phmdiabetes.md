@@ -11,7 +11,7 @@ permalink: p32_phmdiabetes.html
     <img src="assets/img/p32fig1.png" alt=""  width="100%"/>
 </p>
 <p align="left">
-    <em>Figure 1: Workflow in ESNEFT tools to process the data into Lower Super Output Area Granularity for mapping and analysis</em>
+    <em>Figure 1: Workflow in ESNEFT tools to process the data into Lower Super Output Area granularity for mapping and analysis</em>
 </p>
 
 A collaborations with East Suffolk and North Essex foundation trust (ESNEFT) to apply a suite of data science techniques to a large population health data including both primary and secondary care data.  The aim of the project was to identify inequalities in diabetes care whilst making reusable code bases which can now be applied for different conditions and in different organisations.

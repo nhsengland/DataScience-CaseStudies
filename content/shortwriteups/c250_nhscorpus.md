@@ -18,7 +18,7 @@ We aimed to explore how to build an Open, Representative, Extensible and Useful 
 
 ## Results 
 
-Whilst a tool stack was developed which achieved many of our objectives, the key learning points were around the knowledge gaps which need to be addressed at both a data and tooling level before bringing these data together is achievable.   
+Whilst a tool stack was developed which achieved many of our objectives, the key learning points were around the knowledge gaps which need to be addressed at both a data and tooling level before bringing these data together becomes achievable.   
 
 
 | Output | Link | 

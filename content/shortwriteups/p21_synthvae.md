@@ -23,7 +23,7 @@ The gaussian mixture model was able to cope with non-gaussian variables thus ext
 
 Regarding fairness, there are many metrics to choose from and to make the situation more complex, not all metrics are compatible with one another, i.e. you might be able to satisfy an equal odds metric for a group but not an equal prediction for the same group. This means that the level of fairness required is project specific and has to be re-evaluated depending on the research needs. 
 
-Furtehr work will expore the adaption of direct acylic graphs to control for fairness and the impact this has on quality and privacy. 
+Further work will expore the adaption of direct acylic graphs to control for fairness and the impact this has on quality and privacy. 
 
 | Output | Link | 
 | ---- | ---- |

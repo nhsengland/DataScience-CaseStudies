@@ -16,11 +16,11 @@ permalink: c399_privfinger.html
 
 This work was undertaken as an external commission aiming to build a pipeline of components which firstly generated unstructured medical notes using a structured output from [Synthea:tm:](https://github.com/synthetichealth/synthea) and then running these through [GPT-3.5](https://platform.openai.com/docs/models/gpt-3-5) models to transform these into human readable notes.
 
-These notes were then processed using named entitiy recognition to extract pre-defined identifiers and store these in a structured form.  The alogirthm [pycorrect amtch](https://github.com/computationalprivacy/pycorrectmatch) was then implemented to give a privacy risk score of reidentification from the identifiers.  
+These notes were then processed using named entitiy recognition to extract pre-defined identifiers and store these in a structured form.  The alogrithm [pycorrect match](https://github.com/computationalprivacy/pycorrectmatch) was then implemented to give a privacy risk score of reidentification from the identifiers.  
 
 [Shap ](https://github.com/slundberg/shap) analysis was then conducted to understand which components of an individual record and of the dataset as a whole had the highest risk of privacy leakage.  
 
-This pipeline could then be run before and after a deidentification process has taken place to undersand the impact of the process on the risk score and to generate confidence that the dataset has been appropriately processed for use. 
+This pipeline could then be run before and after a deidentification process has taken place to understand the impact of the process on the risk score and to generate confidence that the dataset has been appropriately processed for use. 
 
 ## Results 
 
